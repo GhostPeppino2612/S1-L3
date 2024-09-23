@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    display: block;
+    margin-block: 1em;
+    margin-inline: auto;
+    width: 200px;
+}
+header div {
+    border-top: 2px solid #ffd56d;
+    padding: 0.2em;
+    background-color: #fdfbf1;
+}
+header div p {
+    text-align: center;
+    color: #004746;
+
+}
+
+main {
+    text-align: center;
+    padding: 1em;
+    width: 650px;
+    margin-inline: auto;
+}
+
+main h1 + p {
+    text-align: left;
+}
+
+main img {
+    border-radius: 10px;
+    width: 100%;
+}
+main img + p {
+    color: #bdbdbd;
+    font-weight: 500;
+}
+
+main .feat {
+    text-align: left;
+    padding: 0.1em 1em;
+    border-left: 1px solid #ffd56d;
+    color: #b84d19;
+    font-weight: 600;
+    margin-block: 2em;
+}
+main .feat span {
+    color:#71acac;
+    text-decoration: underline;
+}
+
+main section {
+    text-align: left;
+}
+
+main section h2 {
+    border-bottom: 1px solid #72d2d2;
+    padding-block: 1em;
+}
+
+main section div ul li {
+    padding: 0.5em;
+}
+
+p a {
+    color: #72d2d2;
+}
